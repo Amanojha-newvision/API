@@ -10,5 +10,12 @@ namespace API.Data
         }
         
         public DbSet<AppUser> Users { get; set; }
+
+        internal object CreateToken(AppUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+    
     }
 }
